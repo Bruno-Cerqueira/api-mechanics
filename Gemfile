@@ -46,5 +46,8 @@ group :development do
   # gem "spring"
 end
 
+# Use MongoDB for the database, with Mongoid as the ODM
+gem "mongoid", "8.1.5"
 
-gem "railsmdb", "~> 1.0.0.alpha3"
+# The Rails CLI tool for MongoDB
+gem "railsmdb", "1.0.0.alpha3"
